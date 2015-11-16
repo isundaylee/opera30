@@ -109,8 +109,13 @@ h1
     @include shift(2)
 
     .soundbite
-      @include span-columns(1 of 4)
-      @include omega(4n)
+      @include media($desktop)
+        @include span-columns(1 of 4)
+        @include omega(4n)
+
+      @include media($mobile)
+        @include span-columns(1 of 2)
+        @include omega(2n)
 
       position: relative
       margin-top: 40px
