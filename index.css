@@ -149,54 +149,61 @@ h1 {
     #sec4 #soundbites .soundbite {
       position: relative;
       margin-top: 40px;
-      border: 6px solid #000;
-      padding: 10px;
-      height: 140px;
-      font-size: 20px;
-      line-height: 30px; }
+      height: 100px; }
       @media screen and (min-width: 600px) {
         #sec4 #soundbites .soundbite {
           float: left;
           display: block;
           margin-right: 7.42297%;
-          width: 19.43277%; }
-          #sec4 #soundbites .soundbite:last-child {
-            margin-right: 0; }
-          #sec4 #soundbites .soundbite:nth-child(4n) {
-            margin-right: 0; }
-          #sec4 #soundbites .soundbite:nth-child(4n+1) {
-            clear: left; } }
-      @media screen and (max-width: 600px) {
-        #sec4 #soundbites .soundbite {
-          float: left;
-          display: block;
-          margin-right: 16.03631%;
-          width: 41.98184%; }
+          width: 46.28851%; }
           #sec4 #soundbites .soundbite:last-child {
             margin-right: 0; }
           #sec4 #soundbites .soundbite:nth-child(2n) {
             margin-right: 0; }
           #sec4 #soundbites .soundbite:nth-child(2n+1) {
             clear: left; } }
+      @media screen and (max-width: 600px) {
+        #sec4 #soundbites .soundbite {
+          float: left;
+          display: block;
+          margin-right: 38.19821%;
+          width: 100%; }
+          #sec4 #soundbites .soundbite:last-child {
+            margin-right: 0; }
+          #sec4 #soundbites .soundbite:nth-child(n) {
+            margin-right: 0; } }
+      #sec4 #soundbites .soundbite p {
+        padding: 0;
+        margin: 0; }
+      #sec4 #soundbites .soundbite .title {
+        font-size: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px; }
+      #sec4 #soundbites .soundbite .author, #sec4 #soundbites .soundbite .years {
+        font-size: 16px; }
+      #sec4 #soundbites .soundbite .author {
+        margin-bottom: 2px; }
+      #sec4 #soundbites .soundbite .years {
+        color: #888; }
       #sec4 #soundbites .soundbite #player {
-        width: 100%;
-        height: 100%;
         position: absolute;
         top: 0;
-        left: 0;
-        background-color: #000;
-        opacity: 0;
+        right: 0;
+        border: 6px solid #000;
+        height: 90px;
+        width: 90px;
+        background-color: white;
         text-align: center;
         font-size: 40px;
-        padding-top: 42px; }
-        #sec4 #soundbites .soundbite #player:hover {
-          opacity: 1; }
+        padding-top: 17px;
+        padding-left: 2px; }
         #sec4 #soundbites .soundbite #player.active {
-          opacity: 1; }
+          background-color: #000; }
         #sec4 #soundbites .soundbite #player .fa-pause {
-          display: none; }
-        #sec4 #soundbites .soundbite #player i {
+          display: none;
           color: white; }
+        #sec4 #soundbites .soundbite #player .fa-play {
+          color: black; }
 
 footer {
   max-width: 68em;
