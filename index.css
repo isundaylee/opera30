@@ -28,11 +28,10 @@ body {
 
 #logo {
   display: block;
-  width: 40%;
-  margin: 0 auto; }
+  height: 250px;
+  margin: 50px auto 50px; }
 
 h1 {
-  margin-top: -4%;
   text-align: center; }
 
 #intro {
@@ -143,6 +142,10 @@ h1 {
     clear: both;
     content: "";
     display: table; }
+  #sec4 #soundbites_intro {
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold; }
   #sec4 #soundbites {
     float: left;
     display: block;
