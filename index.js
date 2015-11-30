@@ -10,7 +10,7 @@ $(function() {
         }
 
         window.current_cell = bite
-        window.sound = new Audio("sounds/" + bite.data('src'));
+        window.sound = new Audio(bite.data('src'));
         window.sound.onended = function() {
             stop_sound(window.current_cell)
             window.current_cell = null
