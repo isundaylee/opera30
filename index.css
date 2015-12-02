@@ -227,5 +227,9 @@ footer {
     display: table; }
   footer p {
     text-align: center; }
+    footer p a {
+      text-decoration: none;
+      color: white;
+      font-weight: 600; }
 
 /*# sourceMappingURL=index.css.map */
